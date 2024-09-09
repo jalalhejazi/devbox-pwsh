@@ -1,6 +1,54 @@
 {
   "lockfile_version": "1",
   "packages": {
+    "dotnet-sdk@latest": {
+      "last_modified": "2024-08-31T10:12:23Z",
+      "resolved": "github:NixOS/nixpkgs/5629520edecb69630a3f4d17d3d33fc96c13f6fe#dotnet-sdk",
+      "source": "devbox-search",
+      "version": "6.0.425",
+      "systems": {
+        "aarch64-darwin": {
+          "outputs": [
+            {
+              "name": "out",
+              "path": "/nix/store/vjc20rg1rjnzhz7qyzi0nwrxjkvzs28d-dotnet-sdk-6.0.425",
+              "default": true
+            }
+          ],
+          "store_path": "/nix/store/vjc20rg1rjnzhz7qyzi0nwrxjkvzs28d-dotnet-sdk-6.0.425"
+        },
+        "aarch64-linux": {
+          "outputs": [
+            {
+              "name": "out",
+              "path": "/nix/store/2qk09rs82nanqxa08w58ls0fdaslkca7-dotnet-sdk-6.0.425",
+              "default": true
+            }
+          ],
+          "store_path": "/nix/store/2qk09rs82nanqxa08w58ls0fdaslkca7-dotnet-sdk-6.0.425"
+        },
+        "x86_64-darwin": {
+          "outputs": [
+            {
+              "name": "out",
+              "path": "/nix/store/x8blxkqgdxkhzk8gxxp4qzysjng10jnq-dotnet-sdk-6.0.425",
+              "default": true
+            }
+          ],
+          "store_path": "/nix/store/x8blxkqgdxkhzk8gxxp4qzysjng10jnq-dotnet-sdk-6.0.425"
+        },
+        "x86_64-linux": {
+          "outputs": [
+            {
+              "name": "out",
+              "path": "/nix/store/227q6rhjadqrvq9iwhlgfir1337cdmg5-dotnet-sdk-6.0.425",
+              "default": true
+            }
+          ],
+          "store_path": "/nix/store/227q6rhjadqrvq9iwhlgfir1337cdmg5-dotnet-sdk-6.0.425"
+        }
+      }
+    },
     "gawk@latest": {
       "last_modified": "2024-08-31T10:12:23Z",
       "resolved": "github:NixOS/nixpkgs/5629520edecb69630a3f4d17d3d33fc96c13f6fe#gawk",
@@ -182,6 +230,78 @@
             }
           ],
           "store_path": "/nix/store/4h0chd6cwrs7iyzmn8hk735al1mmvxsk-gettext-0.21.1"
+        }
+      }
+    },
+    "git@latest": {
+      "last_modified": "2024-08-31T10:12:23Z",
+      "resolved": "github:NixOS/nixpkgs/5629520edecb69630a3f4d17d3d33fc96c13f6fe#git",
+      "source": "devbox-search",
+      "version": "2.46.0",
+      "systems": {
+        "aarch64-darwin": {
+          "outputs": [
+            {
+              "name": "out",
+              "path": "/nix/store/w443mfir51ws94kyl7zq5kipqj74j6m3-git-2.46.0",
+              "default": true
+            },
+            {
+              "name": "doc",
+              "path": "/nix/store/sx81ywpa4jimbqp9l3w0n7c0pw8ligzn-git-2.46.0-doc"
+            }
+          ],
+          "store_path": "/nix/store/w443mfir51ws94kyl7zq5kipqj74j6m3-git-2.46.0"
+        },
+        "aarch64-linux": {
+          "outputs": [
+            {
+              "name": "out",
+              "path": "/nix/store/rmyh1ddc6xhp6cqv27wgvns9w8mbbw3b-git-2.46.0",
+              "default": true
+            },
+            {
+              "name": "debug",
+              "path": "/nix/store/5r1xcws1dlwrcfdcbcsb1j8dlnvjgggm-git-2.46.0-debug"
+            },
+            {
+              "name": "doc",
+              "path": "/nix/store/2a6hjqzcvj7vfj7iklxqmzwc75yx3x1r-git-2.46.0-doc"
+            }
+          ],
+          "store_path": "/nix/store/rmyh1ddc6xhp6cqv27wgvns9w8mbbw3b-git-2.46.0"
+        },
+        "x86_64-darwin": {
+          "outputs": [
+            {
+              "name": "out",
+              "path": "/nix/store/iw41zaz9yj1xpkh2x4m8cj4mzk4p7rwx-git-2.46.0",
+              "default": true
+            },
+            {
+              "name": "doc",
+              "path": "/nix/store/5j1c198dm7qf1yslka190ar1klylh2cz-git-2.46.0-doc"
+            }
+          ],
+          "store_path": "/nix/store/iw41zaz9yj1xpkh2x4m8cj4mzk4p7rwx-git-2.46.0"
+        },
+        "x86_64-linux": {
+          "outputs": [
+            {
+              "name": "out",
+              "path": "/nix/store/hxxkx0y690n2iadckr6imndg8223fcq1-git-2.46.0",
+              "default": true
+            },
+            {
+              "name": "doc",
+              "path": "/nix/store/icq598vg50bamj3qk44vv218qdbgjmkr-git-2.46.0-doc"
+            },
+            {
+              "name": "debug",
+              "path": "/nix/store/4y5k4pa84a168pyvccjykb4050q2g8dj-git-2.46.0-debug"
+            }
+          ],
+          "store_path": "/nix/store/hxxkx0y690n2iadckr6imndg8223fcq1-git-2.46.0"
         }
       }
     },

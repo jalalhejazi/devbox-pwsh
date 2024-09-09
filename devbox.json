@@ -1,8 +1,10 @@
 {
-  "$schema":  "https://raw.githubusercontent.com/jetify-com/devbox/0.12.0/.schema/devbox.schema.json",
+  "$schema": "https://raw.githubusercontent.com/jetify-com/devbox/0.12.0/.schema/devbox.schema.json",
   "packages": [
     "python@3.10",
-    "nginx@latest"
+    "dotnet-sdk@latest",
+    "nginx@latest",
+    "git@latest"
   ],
   "shell": {
     "init_hook": [
