@@ -4,7 +4,9 @@
     "nginx@latest",
     "git@latest",
     "dotnet-sdk_8@latest",
-    "redis@latest"
+    "redis@latest",
+    "nodejs@18",
+    "nodePackages.pm2@latest"
   ],
   "shell": {
     "init_hook": [
