@@ -369,6 +369,55 @@
           "store_path": "/nix/store/vjgw78rl62w0xia14a4vz106y0dzd7fw-nginx-1.26.2"
         }
       }
+    },
+    "redis@latest": {
+      "last_modified": "2024-08-31T10:12:23Z",
+      "plugin_version": "0.0.2",
+      "resolved": "github:NixOS/nixpkgs/5629520edecb69630a3f4d17d3d33fc96c13f6fe#redis",
+      "source": "devbox-search",
+      "version": "7.2.5",
+      "systems": {
+        "aarch64-darwin": {
+          "outputs": [
+            {
+              "name": "out",
+              "path": "/nix/store/nv9rbbhkcchbkmblh7mfkjacawjjlhj5-redis-7.2.5",
+              "default": true
+            }
+          ],
+          "store_path": "/nix/store/nv9rbbhkcchbkmblh7mfkjacawjjlhj5-redis-7.2.5"
+        },
+        "aarch64-linux": {
+          "outputs": [
+            {
+              "name": "out",
+              "path": "/nix/store/vyxyiwwbwkz777pcdhic9qd3bqj8bf5f-redis-7.2.5",
+              "default": true
+            }
+          ],
+          "store_path": "/nix/store/vyxyiwwbwkz777pcdhic9qd3bqj8bf5f-redis-7.2.5"
+        },
+        "x86_64-darwin": {
+          "outputs": [
+            {
+              "name": "out",
+              "path": "/nix/store/144pacbks2dbmxn38n5rxcpy4zkygjiy-redis-7.2.5",
+              "default": true
+            }
+          ],
+          "store_path": "/nix/store/144pacbks2dbmxn38n5rxcpy4zkygjiy-redis-7.2.5"
+        },
+        "x86_64-linux": {
+          "outputs": [
+            {
+              "name": "out",
+              "path": "/nix/store/kkl5g1blwmqm1ri9bplsxr3jk82j6asw-redis-7.2.5",
+              "default": true
+            }
+          ],
+          "store_path": "/nix/store/kkl5g1blwmqm1ri9bplsxr3jk82j6asw-redis-7.2.5"
+        }
+      }
     }
   }
 }

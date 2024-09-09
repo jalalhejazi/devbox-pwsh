@@ -3,7 +3,8 @@
   "packages": [
     "nginx@latest",
     "git@latest",
-    "dotnet-sdk_8@latest"
+    "dotnet-sdk_8@latest",
+    "redis@latest"
   ],
   "shell": {
     "init_hook": [
