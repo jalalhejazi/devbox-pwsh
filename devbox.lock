@@ -1,51 +1,51 @@
 {
   "lockfile_version": "1",
   "packages": {
-    "dotnet-sdk@latest": {
+    "dotnet-sdk_8@latest": {
       "last_modified": "2024-08-31T10:12:23Z",
-      "resolved": "github:NixOS/nixpkgs/5629520edecb69630a3f4d17d3d33fc96c13f6fe#dotnet-sdk",
+      "resolved": "github:NixOS/nixpkgs/5629520edecb69630a3f4d17d3d33fc96c13f6fe#dotnet-sdk_8",
       "source": "devbox-search",
-      "version": "6.0.425",
+      "version": "8.0.401",
       "systems": {
         "aarch64-darwin": {
           "outputs": [
             {
               "name": "out",
-              "path": "/nix/store/vjc20rg1rjnzhz7qyzi0nwrxjkvzs28d-dotnet-sdk-6.0.425",
+              "path": "/nix/store/6ky1kg0wvb5rabchi30np4qr8bqh0qmc-dotnet-sdk-8.0.401",
               "default": true
             }
           ],
-          "store_path": "/nix/store/vjc20rg1rjnzhz7qyzi0nwrxjkvzs28d-dotnet-sdk-6.0.425"
+          "store_path": "/nix/store/6ky1kg0wvb5rabchi30np4qr8bqh0qmc-dotnet-sdk-8.0.401"
         },
         "aarch64-linux": {
           "outputs": [
             {
               "name": "out",
-              "path": "/nix/store/2qk09rs82nanqxa08w58ls0fdaslkca7-dotnet-sdk-6.0.425",
+              "path": "/nix/store/bq6i80427mq4wr73s2dw7q4ndshfwv6c-dotnet-sdk-8.0.401",
               "default": true
             }
           ],
-          "store_path": "/nix/store/2qk09rs82nanqxa08w58ls0fdaslkca7-dotnet-sdk-6.0.425"
+          "store_path": "/nix/store/bq6i80427mq4wr73s2dw7q4ndshfwv6c-dotnet-sdk-8.0.401"
         },
         "x86_64-darwin": {
           "outputs": [
             {
               "name": "out",
-              "path": "/nix/store/x8blxkqgdxkhzk8gxxp4qzysjng10jnq-dotnet-sdk-6.0.425",
+              "path": "/nix/store/ih2mbb0i49a3ah5al291x4ymq4k88689-dotnet-sdk-8.0.401",
               "default": true
             }
           ],
-          "store_path": "/nix/store/x8blxkqgdxkhzk8gxxp4qzysjng10jnq-dotnet-sdk-6.0.425"
+          "store_path": "/nix/store/ih2mbb0i49a3ah5al291x4ymq4k88689-dotnet-sdk-8.0.401"
         },
         "x86_64-linux": {
           "outputs": [
             {
               "name": "out",
-              "path": "/nix/store/227q6rhjadqrvq9iwhlgfir1337cdmg5-dotnet-sdk-6.0.425",
+              "path": "/nix/store/n0wda6awc5i1a1jmmdsxsr6j7ypbdw6g-dotnet-sdk-8.0.401",
               "default": true
             }
           ],
-          "store_path": "/nix/store/227q6rhjadqrvq9iwhlgfir1337cdmg5-dotnet-sdk-6.0.425"
+          "store_path": "/nix/store/n0wda6awc5i1a1jmmdsxsr6j7ypbdw6g-dotnet-sdk-8.0.401"
         }
       }
     },
@@ -367,63 +367,6 @@
             }
           ],
           "store_path": "/nix/store/vjgw78rl62w0xia14a4vz106y0dzd7fw-nginx-1.26.2"
-        }
-      }
-    },
-    "python@3.10": {
-      "last_modified": "2024-08-31T10:12:23Z",
-      "plugin_version": "0.0.3",
-      "resolved": "github:NixOS/nixpkgs/5629520edecb69630a3f4d17d3d33fc96c13f6fe#python310",
-      "source": "devbox-search",
-      "version": "3.10.14",
-      "systems": {
-        "aarch64-darwin": {
-          "outputs": [
-            {
-              "name": "out",
-              "path": "/nix/store/fy7rfahwg5nzb5cds2v9lzywic4qd00x-python3-3.10.14",
-              "default": true
-            }
-          ],
-          "store_path": "/nix/store/fy7rfahwg5nzb5cds2v9lzywic4qd00x-python3-3.10.14"
-        },
-        "aarch64-linux": {
-          "outputs": [
-            {
-              "name": "out",
-              "path": "/nix/store/ffh1a33dmlncrggp1n6fylzmixfc69x6-python3-3.10.14",
-              "default": true
-            },
-            {
-              "name": "debug",
-              "path": "/nix/store/4vg1c6wvl7ywvm9xj5hzh5xjbj3km7r0-python3-3.10.14-debug"
-            }
-          ],
-          "store_path": "/nix/store/ffh1a33dmlncrggp1n6fylzmixfc69x6-python3-3.10.14"
-        },
-        "x86_64-darwin": {
-          "outputs": [
-            {
-              "name": "out",
-              "path": "/nix/store/ydd1as0pzz7kpyb9sbxaszmxqzan9b0z-python3-3.10.14",
-              "default": true
-            }
-          ],
-          "store_path": "/nix/store/ydd1as0pzz7kpyb9sbxaszmxqzan9b0z-python3-3.10.14"
-        },
-        "x86_64-linux": {
-          "outputs": [
-            {
-              "name": "out",
-              "path": "/nix/store/c2xh9a8xdhszmyhg9jqgrwxzp83jmv46-python3-3.10.14",
-              "default": true
-            },
-            {
-              "name": "debug",
-              "path": "/nix/store/44dykv6zq7jw168di0qbrs1nsbq56pri-python3-3.10.14-debug"
-            }
-          ],
-          "store_path": "/nix/store/c2xh9a8xdhszmyhg9jqgrwxzp83jmv46-python3-3.10.14"
         }
       }
     }
