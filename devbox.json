@@ -6,7 +6,8 @@
     "dotnet-sdk_8@latest",
     "redis@latest",
     "nodejs@18",
-    "nodePackages.pm2@latest"
+    "nodePackages.pm2@latest",
+    "vscode@latest"
   ],
   "shell": {
     "init_hook": [

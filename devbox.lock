@@ -531,6 +531,54 @@
           "store_path": "/nix/store/kkl5g1blwmqm1ri9bplsxr3jk82j6asw-redis-7.2.5"
         }
       }
+    },
+    "vscode@latest": {
+      "last_modified": "2024-08-31T10:12:23Z",
+      "resolved": "github:NixOS/nixpkgs/5629520edecb69630a3f4d17d3d33fc96c13f6fe#vscode",
+      "source": "devbox-search",
+      "version": "1.92.2",
+      "systems": {
+        "aarch64-darwin": {
+          "outputs": [
+            {
+              "name": "out",
+              "path": "/nix/store/q93xcjb5dc3rrz8xyvzym8ymqrnh45n2-vscode-1.92.2",
+              "default": true
+            }
+          ],
+          "store_path": "/nix/store/q93xcjb5dc3rrz8xyvzym8ymqrnh45n2-vscode-1.92.2"
+        },
+        "aarch64-linux": {
+          "outputs": [
+            {
+              "name": "out",
+              "path": "/nix/store/jpnpxmagazv9rr3r0zxqb49vz2m2wdkv-vscode-1.92.2",
+              "default": true
+            }
+          ],
+          "store_path": "/nix/store/jpnpxmagazv9rr3r0zxqb49vz2m2wdkv-vscode-1.92.2"
+        },
+        "x86_64-darwin": {
+          "outputs": [
+            {
+              "name": "out",
+              "path": "/nix/store/r0llw0jan7rhw8fiml6p9jcrccam71lf-vscode-1.92.2",
+              "default": true
+            }
+          ],
+          "store_path": "/nix/store/r0llw0jan7rhw8fiml6p9jcrccam71lf-vscode-1.92.2"
+        },
+        "x86_64-linux": {
+          "outputs": [
+            {
+              "name": "out",
+              "path": "/nix/store/49bikavxb70qyymsnblgmp3ddcmxy81x-vscode-1.92.2",
+              "default": true
+            }
+          ],
+          "store_path": "/nix/store/49bikavxb70qyymsnblgmp3ddcmxy81x-vscode-1.92.2"
+        }
+      }
     }
   }
 }
