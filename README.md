@@ -54,3 +54,6 @@ devbox run
 ## Awesome-nix
 - https://github.com/nix-community/awesome-nix
 
+
+## Nix and Github Actions
+- https://determinate.systems/posts/nix-github-actions/
