@@ -1,6 +1,70 @@
 {
   "lockfile_version": "1",
   "packages": {
+    "azure-cli@latest": {
+      "last_modified": "2024-09-05T02:32:14Z",
+      "resolved": "github:NixOS/nixpkgs/fcb54ddcc974cff59bdfb7c1ac9e080299763d2d#azure-cli",
+      "source": "devbox-search",
+      "version": "2.64.0",
+      "systems": {
+        "aarch64-darwin": {
+          "outputs": [
+            {
+              "name": "out",
+              "path": "/nix/store/dw0wx54m1i59g8z48xyck18r29j62lx1-python3.12-azure-cli-2.64.0",
+              "default": true
+            },
+            {
+              "name": "dist",
+              "path": "/nix/store/46nvz7f7dz1497qrqkz03xydr0r5q4nh-python3.12-azure-cli-2.64.0-dist"
+            }
+          ],
+          "store_path": "/nix/store/dw0wx54m1i59g8z48xyck18r29j62lx1-python3.12-azure-cli-2.64.0"
+        },
+        "aarch64-linux": {
+          "outputs": [
+            {
+              "name": "out",
+              "path": "/nix/store/3cjmjnaiiijwrccxb1fdgylf01c4ghz0-python3.12-azure-cli-2.64.0",
+              "default": true
+            },
+            {
+              "name": "dist",
+              "path": "/nix/store/5zkl68sikfyir04brdx8yynjdxnf2a82-python3.12-azure-cli-2.64.0-dist"
+            }
+          ],
+          "store_path": "/nix/store/3cjmjnaiiijwrccxb1fdgylf01c4ghz0-python3.12-azure-cli-2.64.0"
+        },
+        "x86_64-darwin": {
+          "outputs": [
+            {
+              "name": "out",
+              "path": "/nix/store/8bpm8chi58wlxhixhkrx162lsrvs840b-python3.12-azure-cli-2.64.0",
+              "default": true
+            },
+            {
+              "name": "dist",
+              "path": "/nix/store/pxp3fp36mahc5rqrra9jc6b760af27mg-python3.12-azure-cli-2.64.0-dist"
+            }
+          ],
+          "store_path": "/nix/store/8bpm8chi58wlxhixhkrx162lsrvs840b-python3.12-azure-cli-2.64.0"
+        },
+        "x86_64-linux": {
+          "outputs": [
+            {
+              "name": "out",
+              "path": "/nix/store/8kziilkrzl4rydnh7v4qalgk4n9jv3kv-python3.12-azure-cli-2.64.0",
+              "default": true
+            },
+            {
+              "name": "dist",
+              "path": "/nix/store/sirwl23mn5diyg19f56wnwiydw110pf5-python3.12-azure-cli-2.64.0-dist"
+            }
+          ],
+          "store_path": "/nix/store/8kziilkrzl4rydnh7v4qalgk4n9jv3kv-python3.12-azure-cli-2.64.0"
+        }
+      }
+    },
     "dotnet-sdk_8@latest": {
       "last_modified": "2024-08-31T10:12:23Z",
       "resolved": "github:NixOS/nixpkgs/5629520edecb69630a3f4d17d3d33fc96c13f6fe#dotnet-sdk_8",

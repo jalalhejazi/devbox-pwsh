@@ -7,16 +7,16 @@
     "redis@latest",
     "nodejs@18",
     "nodePackages.pm2@latest",
-    "vscode@latest"
+    "vscode@latest",
+    "azure-cli@latest"
   ],
   "shell": {
     "init_hook": [
       "echo 'Welcome to devbox!' > /dev/null"
     ],
     "scripts": {
-      "test": [
-        "echo \"Error: no test specified\" && exit 1"
-      ]
+      "gs": ["git status"],
+      "deploy": ["git add . && git commit -m 'JAZJ' && git push origin main"]
     }
   }
 }
