@@ -56,4 +56,11 @@ devbox run
 
 
 ## Nix and Github Actions
+
+origin:
 - https://determinate.systems/posts/nix-github-actions/
+
+I’ve focused on GitHub Actions in this post because it’s very widely used and because I don’t always love its dependency system, but you can employ a similar Nix-based approach in just about any CI system. I strongly encourage you to at least explore the Nix approach for all of your CI use cases. After all, continuous integration is meant to automate your worries and troubles away. Every moment you spend fighting with CI is a moment that goes against the core purpose of the paradigm. With Nix you can reap all the benefits of CI while being unburdened of many common drawbacks.
+
+
+
