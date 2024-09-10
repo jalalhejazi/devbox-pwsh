@@ -6,14 +6,16 @@ Nix devbox is a development environment that is based on Nix package manager. It
 
 
 ## Installation
-
 - https://www.jetify.com/devbox/docs/installing_devbox/
+
 
 
 ## devbox shell 
 ```bash
 # list all available packages 
 devbox list 
+* gettext@latest
+* gawk@latest
 * nginx@latest
 * git@latest
 * dotnet-sdk_8@latest
@@ -21,6 +23,7 @@ devbox list
 * nodejs@18
 * nodePackages.pm2@latest
 * vscode@latest
+* azure-cli@latest
 
 
 devbox update
@@ -31,15 +34,18 @@ devbox shell
 ## start vscode inside the devbox 
 code . 
 
-# git latest version
-git 
+# list all devbox scripts
+devbox run 
 
 ```
 
 
 ## devbox services | nginx 
-
 - devbox services ls
 - devbox services up
 - starting service nginx | http://localhost:8081/
 
+
+
+## azd | Azure Developer CLI 
+- https://devblogs.microsoft.com/azure-sdk/azure-developer-cli-azd-september-2024/

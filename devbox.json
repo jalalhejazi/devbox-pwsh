@@ -9,14 +9,12 @@
     "nodePackages.pm2@latest",
     "vscode@latest",
     "azure-cli@latest"
+    
   
   ],
   "shell": {
-    "init_hook": [
-      "echo 'Welcome to devbox!' > /dev/null"
-    ],
+    "init_hook": ["devbox list && echo '--' && devbox run"],
     "scripts": {
-      "gs": ["git status"],
       "git-deploy": ["git add . && git commit -m '-' && git push origin main"],
       "azd-install" : ["curl -fsSL https://aka.ms/install-azd.sh | bash"],
       "azd-templates" : ["azd template list"],
