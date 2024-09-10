@@ -65,6 +65,44 @@
         }
       }
     },
+    "azure-functions-core-tools@latest": {
+      "last_modified": "2024-09-05T02:32:14Z",
+      "resolved": "github:NixOS/nixpkgs/fcb54ddcc974cff59bdfb7c1ac9e080299763d2d#azure-functions-core-tools",
+      "source": "devbox-search",
+      "version": "4.0.5455",
+      "systems": {
+        "aarch64-darwin": {
+          "outputs": [
+            {
+              "name": "out",
+              "path": "/nix/store/v42pg0abvv96za8l5n058ygvwrwlam33-azure-functions-core-tools-4.0.5455",
+              "default": true
+            }
+          ],
+          "store_path": "/nix/store/v42pg0abvv96za8l5n058ygvwrwlam33-azure-functions-core-tools-4.0.5455"
+        },
+        "x86_64-darwin": {
+          "outputs": [
+            {
+              "name": "out",
+              "path": "/nix/store/0nvwsdk18k3c8z3hp4vmh057pkqq4mpa-azure-functions-core-tools-4.0.5455",
+              "default": true
+            }
+          ],
+          "store_path": "/nix/store/0nvwsdk18k3c8z3hp4vmh057pkqq4mpa-azure-functions-core-tools-4.0.5455"
+        },
+        "x86_64-linux": {
+          "outputs": [
+            {
+              "name": "out",
+              "path": "/nix/store/q7h021qyjjm4sbifcqkm1apgsg11n89k-azure-functions-core-tools-4.0.5455",
+              "default": true
+            }
+          ],
+          "store_path": "/nix/store/q7h021qyjjm4sbifcqkm1apgsg11n89k-azure-functions-core-tools-4.0.5455"
+        }
+      }
+    },
     "dotnet-sdk_8@latest": {
       "last_modified": "2024-08-31T10:12:23Z",
       "resolved": "github:NixOS/nixpkgs/5629520edecb69630a3f4d17d3d33fc96c13f6fe#dotnet-sdk_8",

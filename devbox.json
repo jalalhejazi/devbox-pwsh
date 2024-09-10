@@ -9,6 +9,7 @@
     "nodePackages.pm2@latest",
     "vscode@latest",
     "azure-cli@latest"
+  
   ],
   "shell": {
     "init_hook": [
@@ -16,7 +17,9 @@
     ],
     "scripts": {
       "gs": ["git status"],
-      "deploy": ["git add . && git commit -m 'JAZJ' && git push origin main"]
+      "git-deploy": ["git add . && git commit -m '-' && git push origin main"],
+      "azd-install" : ["curl -fsSL https://aka.ms/install-azd.sh | bash"],
+      "azd-templates" : ["azd template list"]
     }
   }
 }
