@@ -49,3 +49,8 @@ devbox run
 
 ## azd | Azure Developer CLI 
 - https://devblogs.microsoft.com/azure-sdk/azure-developer-cli-azd-september-2024/
+
+
+## Awesome-nix
+- https://github.com/nix-community/awesome-nix
+
