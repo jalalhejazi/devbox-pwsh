@@ -19,7 +19,8 @@
       "gs": ["git status"],
       "git-deploy": ["git add . && git commit -m '-' && git push origin main"],
       "azd-install" : ["curl -fsSL https://aka.ms/install-azd.sh | bash"],
-      "azd-templates" : ["azd template list"]
+      "azd-templates" : ["azd template list"],
+      "az-bicep-upgrade" : ["az bicep upgrade && az bicep version"]
     }
   }
 }
