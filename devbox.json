@@ -1,6 +1,6 @@
 {
-  "$schema": "https://raw.githubusercontent.com/jetify-com/devbox/0.12.0/.schema/devbox.schema.json",
-  "name": "devbox-web",
+  "$schema":     "https://raw.githubusercontent.com/jetify-com/devbox/0.12.0/.schema/devbox.schema.json",
+  "name":        "devbox-web",
   "description": "A development environment for web and cloud automation",
   "packages": [
     "nginx@latest",
@@ -12,21 +12,24 @@
     "nodePackages.pm2@latest",
     "vscode@latest",
     "azure-cli@latest",
-    "powershell@latest"
+    "powershell@latest",
+    "jq@latest"
   ],
   "env": {
     "PS1":  "🐝",
     "PATH": "$PATH:$PWD/node_modules/.bin"
   },
   "shell": {
-    "init_hook": ["devbox list && echo '--' && devbox run"],
+    "init_hook": ["cat 'devbox.json' | jq '.description' ", "devbox list && echo '--' && devbox run"],
     "scripts": {
       "git-deploy":       ["git add . && git commit -m '-' && git push origin main"],
       "azd-install":      ["curl -fsSL https://aka.ms/install-azd.sh | bash"],
       "azd-templates":    ["azd template list"],
       "az-bicep-upgrade": ["az bicep upgrade && az bicep version"],
-      "free-up-space":    ["echo 'clean up unused packages from the Nix Store' && devbox run -- nix store gc --extra-experimental-features nix-command"],
-      "powershell-host":  ["pwsh --version && pwsh -c 'Get-Host' "]
+      "free-up-space": [
+        "echo 'clean up unused packages from the Nix Store' && devbox run -- nix store gc --extra-experimental-features nix-command"
+      ],
+      "powershell-host": ["pwsh --version && pwsh -c 'Get-Host' "]
     }
   }
 }
