@@ -6,18 +6,25 @@
     "gh@latest",
     "dotnet-sdk_8@latest",
     "redis@latest",
-    "nodejs@18",
+    "nodejs@20",
     "nodePackages.pm2@latest",
     "vscode@latest",
-    "azure-cli@latest"
+    "azure-cli@latest",
+    "powershell@latest"
   ],
+  "env": {
+    "PS1":  " 🐝 ",
+    "PATH": "$PATH:$PWD/node_modules/.bin"
+  },
   "shell": {
     "init_hook": ["devbox list && echo '--' && devbox run"],
     "scripts": {
-      "git-deploy": ["git add . && git commit -m '-' && git push origin main"],
-      "azd-install" : ["curl -fsSL https://aka.ms/install-azd.sh | bash"],
-      "azd-templates" : ["azd template list"],
-      "az-bicep-upgrade" : ["az bicep upgrade && az bicep version"]
+      "git-deploy":       ["git add . && git commit -m '-' && git push origin main"],
+      "azd-install":      ["curl -fsSL https://aka.ms/install-azd.sh | bash"],
+      "azd-templates":    ["azd template list"],
+      "az-bicep-upgrade": ["az bicep upgrade && az bicep version"],
+      "free-up-space":    ["echo 'clean up unused packages from the Nix Store' && devbox run -- nix store gc --extra-experimental-features nix-command"],
+      "powershell-host":  ["pwsh --version && pwsh -c 'Get-Host' "]
     }
   }
 }

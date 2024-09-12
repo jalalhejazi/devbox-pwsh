@@ -2,8 +2,8 @@
   "lockfile_version": "1",
   "packages": {
     "azure-cli@latest": {
-      "last_modified": "2024-09-05T02:32:14Z",
-      "resolved": "github:NixOS/nixpkgs/fcb54ddcc974cff59bdfb7c1ac9e080299763d2d#azure-cli",
+      "last_modified": "2024-09-07T06:00:21Z",
+      "resolved": "github:NixOS/nixpkgs/29cca090417df03e6d1928d99f77e8e81c74c3fa#azure-cli",
       "source": "devbox-search",
       "version": "2.64.0",
       "systems": {
@@ -11,63 +11,63 @@
           "outputs": [
             {
               "name": "out",
-              "path": "/nix/store/dw0wx54m1i59g8z48xyck18r29j62lx1-python3.12-azure-cli-2.64.0",
+              "path": "/nix/store/w987jx5i39mcaxi0f31va7d8k2lh7xzd-python3.12-azure-cli-2.64.0",
               "default": true
             },
             {
               "name": "dist",
-              "path": "/nix/store/46nvz7f7dz1497qrqkz03xydr0r5q4nh-python3.12-azure-cli-2.64.0-dist"
+              "path": "/nix/store/wbna513nr4q33mf7pflzxns8vldvn91p-python3.12-azure-cli-2.64.0-dist"
             }
           ],
-          "store_path": "/nix/store/dw0wx54m1i59g8z48xyck18r29j62lx1-python3.12-azure-cli-2.64.0"
+          "store_path": "/nix/store/w987jx5i39mcaxi0f31va7d8k2lh7xzd-python3.12-azure-cli-2.64.0"
         },
         "aarch64-linux": {
           "outputs": [
             {
               "name": "out",
-              "path": "/nix/store/3cjmjnaiiijwrccxb1fdgylf01c4ghz0-python3.12-azure-cli-2.64.0",
+              "path": "/nix/store/kz0q8x2zwbr6kqnz3anyzl5b9xg349c1-python3.12-azure-cli-2.64.0",
               "default": true
             },
             {
               "name": "dist",
-              "path": "/nix/store/5zkl68sikfyir04brdx8yynjdxnf2a82-python3.12-azure-cli-2.64.0-dist"
+              "path": "/nix/store/fsmmn9577m7ry29nnlfwdi98cp38fg46-python3.12-azure-cli-2.64.0-dist"
             }
           ],
-          "store_path": "/nix/store/3cjmjnaiiijwrccxb1fdgylf01c4ghz0-python3.12-azure-cli-2.64.0"
+          "store_path": "/nix/store/kz0q8x2zwbr6kqnz3anyzl5b9xg349c1-python3.12-azure-cli-2.64.0"
         },
         "x86_64-darwin": {
           "outputs": [
             {
               "name": "out",
-              "path": "/nix/store/8bpm8chi58wlxhixhkrx162lsrvs840b-python3.12-azure-cli-2.64.0",
+              "path": "/nix/store/q4mwr69j5whpprj98f7y9jil5mwzn4ah-python3.12-azure-cli-2.64.0",
               "default": true
             },
             {
               "name": "dist",
-              "path": "/nix/store/pxp3fp36mahc5rqrra9jc6b760af27mg-python3.12-azure-cli-2.64.0-dist"
+              "path": "/nix/store/s7gc31kzmgawfs5yxxs0228i1mihrqfz-python3.12-azure-cli-2.64.0-dist"
             }
           ],
-          "store_path": "/nix/store/8bpm8chi58wlxhixhkrx162lsrvs840b-python3.12-azure-cli-2.64.0"
+          "store_path": "/nix/store/q4mwr69j5whpprj98f7y9jil5mwzn4ah-python3.12-azure-cli-2.64.0"
         },
         "x86_64-linux": {
           "outputs": [
             {
               "name": "out",
-              "path": "/nix/store/8kziilkrzl4rydnh7v4qalgk4n9jv3kv-python3.12-azure-cli-2.64.0",
+              "path": "/nix/store/d0kmmiliahn5cl73gwynwd90x5i67wxw-python3.12-azure-cli-2.64.0",
               "default": true
             },
             {
               "name": "dist",
-              "path": "/nix/store/sirwl23mn5diyg19f56wnwiydw110pf5-python3.12-azure-cli-2.64.0-dist"
+              "path": "/nix/store/r8kx5idzmajd6636vb7977vqgs1zidad-python3.12-azure-cli-2.64.0-dist"
             }
           ],
-          "store_path": "/nix/store/8kziilkrzl4rydnh7v4qalgk4n9jv3kv-python3.12-azure-cli-2.64.0"
+          "store_path": "/nix/store/d0kmmiliahn5cl73gwynwd90x5i67wxw-python3.12-azure-cli-2.64.0"
         }
       }
     },
     "dotnet-sdk_8@latest": {
-      "last_modified": "2024-08-31T10:12:23Z",
-      "resolved": "github:NixOS/nixpkgs/5629520edecb69630a3f4d17d3d33fc96c13f6fe#dotnet-sdk_8",
+      "last_modified": "2024-09-08T08:36:32Z",
+      "resolved": "github:NixOS/nixpkgs/17fb773308a8558abaa05b5df71cdaf3e5208e66#dotnet-sdk_8",
       "source": "devbox-search",
       "version": "8.0.401",
       "systems": {
@@ -75,41 +75,41 @@
           "outputs": [
             {
               "name": "out",
-              "path": "/nix/store/6ky1kg0wvb5rabchi30np4qr8bqh0qmc-dotnet-sdk-8.0.401",
+              "path": "/nix/store/21dwrlm9vr8ggrll5nh322gms4w4w90k-dotnet-sdk-8.0.401",
               "default": true
             }
           ],
-          "store_path": "/nix/store/6ky1kg0wvb5rabchi30np4qr8bqh0qmc-dotnet-sdk-8.0.401"
+          "store_path": "/nix/store/21dwrlm9vr8ggrll5nh322gms4w4w90k-dotnet-sdk-8.0.401"
         },
         "aarch64-linux": {
           "outputs": [
             {
               "name": "out",
-              "path": "/nix/store/bq6i80427mq4wr73s2dw7q4ndshfwv6c-dotnet-sdk-8.0.401",
+              "path": "/nix/store/vkprry1gi4yd3n1vjhird4amjcsbinay-dotnet-sdk-8.0.401",
               "default": true
             }
           ],
-          "store_path": "/nix/store/bq6i80427mq4wr73s2dw7q4ndshfwv6c-dotnet-sdk-8.0.401"
+          "store_path": "/nix/store/vkprry1gi4yd3n1vjhird4amjcsbinay-dotnet-sdk-8.0.401"
         },
         "x86_64-darwin": {
           "outputs": [
             {
               "name": "out",
-              "path": "/nix/store/ih2mbb0i49a3ah5al291x4ymq4k88689-dotnet-sdk-8.0.401",
+              "path": "/nix/store/430idn77507ga7p4pgxlqv9hykwwna68-dotnet-sdk-8.0.401",
               "default": true
             }
           ],
-          "store_path": "/nix/store/ih2mbb0i49a3ah5al291x4ymq4k88689-dotnet-sdk-8.0.401"
+          "store_path": "/nix/store/430idn77507ga7p4pgxlqv9hykwwna68-dotnet-sdk-8.0.401"
         },
         "x86_64-linux": {
           "outputs": [
             {
               "name": "out",
-              "path": "/nix/store/n0wda6awc5i1a1jmmdsxsr6j7ypbdw6g-dotnet-sdk-8.0.401",
+              "path": "/nix/store/ivjrmmfqy4c9aivg6zj22pbf411l313q-dotnet-sdk-8.0.401",
               "default": true
             }
           ],
-          "store_path": "/nix/store/n0wda6awc5i1a1jmmdsxsr6j7ypbdw6g-dotnet-sdk-8.0.401"
+          "store_path": "/nix/store/ivjrmmfqy4c9aivg6zj22pbf411l313q-dotnet-sdk-8.0.401"
         }
       }
     },
@@ -405,12 +405,12 @@
               "default": true
             },
             {
-              "name": "doc",
-              "path": "/nix/store/icq598vg50bamj3qk44vv218qdbgjmkr-git-2.46.0-doc"
-            },
-            {
               "name": "debug",
               "path": "/nix/store/4y5k4pa84a168pyvccjykb4050q2g8dj-git-2.46.0-debug"
+            },
+            {
+              "name": "doc",
+              "path": "/nix/store/icq598vg50bamj3qk44vv218qdbgjmkr-git-2.46.0-doc"
             }
           ],
           "store_path": "/nix/store/hxxkx0y690n2iadckr6imndg8223fcq1-git-2.46.0"
@@ -530,68 +530,116 @@
         }
       }
     },
-    "nodejs@18": {
+    "nodejs@20": {
       "last_modified": "2024-08-31T10:12:23Z",
       "plugin_version": "0.0.2",
-      "resolved": "github:NixOS/nixpkgs/5629520edecb69630a3f4d17d3d33fc96c13f6fe#nodejs_18",
+      "resolved": "github:NixOS/nixpkgs/5629520edecb69630a3f4d17d3d33fc96c13f6fe#nodejs_20",
       "source": "devbox-search",
-      "version": "18.20.4",
+      "version": "20.16.0",
       "systems": {
         "aarch64-darwin": {
           "outputs": [
             {
               "name": "out",
-              "path": "/nix/store/5k3b4l24qray412x35q95y067ll51rv5-nodejs-18.20.4",
+              "path": "/nix/store/iikbj8fwd3msxvh747v22b0gpf1rckww-nodejs-20.16.0",
               "default": true
             },
             {
               "name": "libv8",
-              "path": "/nix/store/8caswslyz5x5y9sl44bx7vbdy67a92px-nodejs-18.20.4-libv8"
+              "path": "/nix/store/clzfgrh8fmzgr8jmv2266b30qh4mqlxa-nodejs-20.16.0-libv8"
             }
           ],
-          "store_path": "/nix/store/5k3b4l24qray412x35q95y067ll51rv5-nodejs-18.20.4"
+          "store_path": "/nix/store/iikbj8fwd3msxvh747v22b0gpf1rckww-nodejs-20.16.0"
         },
         "aarch64-linux": {
           "outputs": [
             {
               "name": "out",
-              "path": "/nix/store/577kjc9ygkxrfrbxillh7dgdhka8ic2w-nodejs-18.20.4",
+              "path": "/nix/store/rbv8jmnhifp2znxc4issvl7zgmy7f24j-nodejs-20.16.0",
               "default": true
             },
             {
               "name": "libv8",
-              "path": "/nix/store/nm6szz0g799gfpwhsnv14nmjvzk8mi0c-nodejs-18.20.4-libv8"
+              "path": "/nix/store/2hqnq9snccm7n7346k5bqj657mp85lb3-nodejs-20.16.0-libv8"
             }
           ],
-          "store_path": "/nix/store/577kjc9ygkxrfrbxillh7dgdhka8ic2w-nodejs-18.20.4"
+          "store_path": "/nix/store/rbv8jmnhifp2znxc4issvl7zgmy7f24j-nodejs-20.16.0"
         },
         "x86_64-darwin": {
           "outputs": [
             {
               "name": "out",
-              "path": "/nix/store/djai3vmv7w8aivdld68jcn04kw0j0b6s-nodejs-18.20.4",
+              "path": "/nix/store/azpkc2aw75nabkv9pq07j4rxw92fm7i6-nodejs-20.16.0",
               "default": true
             },
             {
               "name": "libv8",
-              "path": "/nix/store/g0prz3qlq0mmifmd9l1wikx7prgg02sb-nodejs-18.20.4-libv8"
+              "path": "/nix/store/8qjcn62342vpl6r1l9f22l901fj8cqbc-nodejs-20.16.0-libv8"
             }
           ],
-          "store_path": "/nix/store/djai3vmv7w8aivdld68jcn04kw0j0b6s-nodejs-18.20.4"
+          "store_path": "/nix/store/azpkc2aw75nabkv9pq07j4rxw92fm7i6-nodejs-20.16.0"
         },
         "x86_64-linux": {
           "outputs": [
             {
               "name": "out",
-              "path": "/nix/store/cs678lm3zzl18wnfr88sag2c0j3y5ya9-nodejs-18.20.4",
+              "path": "/nix/store/alik5i1lm5kfm61fh3pg221czk7pmv4g-nodejs-20.16.0",
               "default": true
             },
             {
               "name": "libv8",
-              "path": "/nix/store/k1gnid54y4nw7kgysw9ik29as6wqak9k-nodejs-18.20.4-libv8"
+              "path": "/nix/store/sl8zwksqc08asblhr5r36dlhzy6brmpk-nodejs-20.16.0-libv8"
             }
           ],
-          "store_path": "/nix/store/cs678lm3zzl18wnfr88sag2c0j3y5ya9-nodejs-18.20.4"
+          "store_path": "/nix/store/alik5i1lm5kfm61fh3pg221czk7pmv4g-nodejs-20.16.0"
+        }
+      }
+    },
+    "powershell@latest": {
+      "last_modified": "2024-08-31T10:12:23Z",
+      "resolved": "github:NixOS/nixpkgs/5629520edecb69630a3f4d17d3d33fc96c13f6fe#powershell",
+      "source": "devbox-search",
+      "version": "7.4.5",
+      "systems": {
+        "aarch64-darwin": {
+          "outputs": [
+            {
+              "name": "out",
+              "path": "/nix/store/i0znj8dl7yvsi1n6rbmr4m40bhr2d0ya-powershell-7.4.5",
+              "default": true
+            }
+          ],
+          "store_path": "/nix/store/i0znj8dl7yvsi1n6rbmr4m40bhr2d0ya-powershell-7.4.5"
+        },
+        "aarch64-linux": {
+          "outputs": [
+            {
+              "name": "out",
+              "path": "/nix/store/73brk18dsf5n4xavn9nri5aqraxm8bmk-powershell-7.4.5",
+              "default": true
+            }
+          ],
+          "store_path": "/nix/store/73brk18dsf5n4xavn9nri5aqraxm8bmk-powershell-7.4.5"
+        },
+        "x86_64-darwin": {
+          "outputs": [
+            {
+              "name": "out",
+              "path": "/nix/store/2dhb33hmviam07nw848m84zls0k56hcp-powershell-7.4.5",
+              "default": true
+            }
+          ],
+          "store_path": "/nix/store/2dhb33hmviam07nw848m84zls0k56hcp-powershell-7.4.5"
+        },
+        "x86_64-linux": {
+          "outputs": [
+            {
+              "name": "out",
+              "path": "/nix/store/6rp4mn9f5ggvf0i4lxrmj16jrabfhm9q-powershell-7.4.5",
+              "default": true
+            }
+          ],
+          "store_path": "/nix/store/6rp4mn9f5ggvf0i4lxrmj16jrabfhm9q-powershell-7.4.5"
         }
       }
     },
@@ -645,50 +693,50 @@
       }
     },
     "vscode@latest": {
-      "last_modified": "2024-08-31T10:12:23Z",
-      "resolved": "github:NixOS/nixpkgs/5629520edecb69630a3f4d17d3d33fc96c13f6fe#vscode",
+      "last_modified": "2024-09-09T19:32:08Z",
+      "resolved": "github:NixOS/nixpkgs/5775c2583f1801df7b790bf7f7d710a19bac66f4#vscode",
       "source": "devbox-search",
-      "version": "1.92.2",
+      "version": "1.93.0",
       "systems": {
         "aarch64-darwin": {
           "outputs": [
             {
               "name": "out",
-              "path": "/nix/store/q93xcjb5dc3rrz8xyvzym8ymqrnh45n2-vscode-1.92.2",
+              "path": "/nix/store/kk3rma55ci29vpsi9jk6l88w74jca5jy-vscode-1.93.0",
               "default": true
             }
           ],
-          "store_path": "/nix/store/q93xcjb5dc3rrz8xyvzym8ymqrnh45n2-vscode-1.92.2"
+          "store_path": "/nix/store/kk3rma55ci29vpsi9jk6l88w74jca5jy-vscode-1.93.0"
         },
         "aarch64-linux": {
           "outputs": [
             {
               "name": "out",
-              "path": "/nix/store/jpnpxmagazv9rr3r0zxqb49vz2m2wdkv-vscode-1.92.2",
+              "path": "/nix/store/9gnsm7ic27h6fjnwfwpdwj3lkbnllvym-vscode-1.93.0",
               "default": true
             }
           ],
-          "store_path": "/nix/store/jpnpxmagazv9rr3r0zxqb49vz2m2wdkv-vscode-1.92.2"
+          "store_path": "/nix/store/9gnsm7ic27h6fjnwfwpdwj3lkbnllvym-vscode-1.93.0"
         },
         "x86_64-darwin": {
           "outputs": [
             {
               "name": "out",
-              "path": "/nix/store/r0llw0jan7rhw8fiml6p9jcrccam71lf-vscode-1.92.2",
+              "path": "/nix/store/zw7vaa1p6gmjqkdg0izrdyynckj2n379-vscode-1.93.0",
               "default": true
             }
           ],
-          "store_path": "/nix/store/r0llw0jan7rhw8fiml6p9jcrccam71lf-vscode-1.92.2"
+          "store_path": "/nix/store/zw7vaa1p6gmjqkdg0izrdyynckj2n379-vscode-1.93.0"
         },
         "x86_64-linux": {
           "outputs": [
             {
               "name": "out",
-              "path": "/nix/store/49bikavxb70qyymsnblgmp3ddcmxy81x-vscode-1.92.2",
+              "path": "/nix/store/4h4lhq00d87mra3v6xxffpdkw5hfpprd-vscode-1.93.0",
               "default": true
             }
           ],
-          "store_path": "/nix/store/49bikavxb70qyymsnblgmp3ddcmxy81x-vscode-1.92.2"
+          "store_path": "/nix/store/4h4lhq00d87mra3v6xxffpdkw5hfpprd-vscode-1.93.0"
         }
       }
     }
