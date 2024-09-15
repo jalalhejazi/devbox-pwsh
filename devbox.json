@@ -16,7 +16,7 @@
     "jq@latest"
   ],
   "env": {
-    "PS1":  "🐝",
+    "PS1":  "🐝 ",
     "PATH": "$PATH:$PWD/node_modules/.bin"
   },
   "shell": {
