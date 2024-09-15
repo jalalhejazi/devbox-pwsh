@@ -29,7 +29,8 @@
       "free-up-space": [
         "echo 'clean up unused packages from the Nix Store' && devbox run -- nix store gc --extra-experimental-features nix-command"
       ],
-      "powershell-host": ["pwsh --version && pwsh -c 'Get-Host' "]
+      "powershell-host": ["pwsh --version && pwsh -c 'Get-Host' "],
+      "powershell-test": ["pwsh -file './powershell/test.ps1' -ExecutionPolicy Bypass "]
     }
   }
 }
