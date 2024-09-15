@@ -16,11 +16,13 @@ Nix devbox is a development environment that is based on Nix package manager. It
 - https://www.jetify.com/devbox/docs/installing_devbox/
 
 
+## Examples 
+- https://github.com/jetify-com/devbox/tree/main/examples
 
-## devbox add <package> 
+
+## devbox add "package" 
 ```bash
-* gettext@latest
-* gawk@latest
+* powershell@latest
 * nginx@latest
 * git@latest
 * dotnet-sdk_8@latest
@@ -31,11 +33,8 @@ Nix devbox is a development environment that is based on Nix package manager. It
 * azure-cli@latest
 
 
-
 # start Nix devbox
 devbox shell
-
-
 
 
 # list all devbox scripts
