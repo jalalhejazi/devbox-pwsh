@@ -1,6 +1,4 @@
 
-[![Testing with devbox](https://github.com/Jalalhejazi/devbox/actions/workflows/devbox-test.yml/badge.svg)](https://github.com/Jalalhejazi/devbox/actions/workflows/devbox-test.yml)
-
 
 [![Built with Devbox](https://www.jetify.com/img/devbox/shield_galaxy.svg)](https://www.jetify.com/devbox/docs/contributor-quickstart/)
 
