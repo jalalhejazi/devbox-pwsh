@@ -11,18 +11,15 @@ jobs:
 
       - name: Install devbox
         uses: jetify-com/devbox-install-action@v0.11.0
+        with:
+          enable-cache: true
 
       - name: Run arbitrary commands
-        run: devbox run -- echo "done!"
+        run: devbox run -- pwsh write-host "Hello from pwsh"
 
       - name: Run a script called powershell-host
         run: devbox run powershell-host
 
       - name: Run a script called powershell-test
-        run: devbox run powershell-test
-
-      - name: Run devbox as shell  
-        run: |
-           devbox shell
-           write-host $host.version  
+        run: devbox run powershell-test  
            
