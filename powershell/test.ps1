@@ -3,3 +3,8 @@
 # pwsh.exe -File <FileName> -ExecutionPolicy Bypass
 
 Write-Host -Object "Testing PowerShell script with version: $($host.Version)"  
+
+## get public IP address of the machine 
+
+$PublicIP = Invoke-RestMethod -Uri "http://ipinfo.io/json" | Select -ExpandProperty ip
+Write-Host -Object "Public IP Address: $PublicIP"
