@@ -4,8 +4,8 @@ on:
   workflow_dispatch
     
 jobs:
-  devbox-run-self-hosted:
-    runs-on: self-hosted
+  devbox-run:
+    runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v4
 
