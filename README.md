@@ -42,3 +42,17 @@ devbox run
 
 
 
+
+
+## GitHub Actions Workflow
+
+[The job](.github/workflows/devbox-test.yml) in the workflow is performing the following tasks:
+
+1. Checking for a cache of the `devbox` CLI tool version 0.13.6 and the Nix store.
+2. The cache is not found for the input keys specified.
+3. Setting environment variables, including the latest version of the `devbox` CLI and enabling deterministic Nix builds.
+4. Installing the `devbox` CLI and setting up the Nix store.
+5. Running the `devbox` CLI to install the specified packages.
+
+
+The job involves managing caching for specific paths and keys related to the `devbox` CLI and Nix store to optimize workflow performance.
