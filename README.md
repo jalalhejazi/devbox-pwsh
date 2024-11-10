@@ -44,9 +44,6 @@ Nix devbox is a development environment that is based on Nix package manager. It
 
 # start Nix devbox
  - devbox shell
- - expecting .env is in memory and ready to be used 
- - echo $test 
-
 
 # list all devbox scripts
  - devbox run 
@@ -57,14 +54,22 @@ Nix devbox is a development environment that is based on Nix package manager. It
 ```
 
 
+## Dependencies for running Azure Function with Powershell in this devbox environment 
 
+```sh
+# devbox.yaml
+ "packages": [
+    "powershell@7.2.0",
+    "azure-cli@latest",
+    "dotnet-sdk_6@latest",
+    "azure-functions-core-tools@latest",
+    "vscode@latest"
+  ]
 
-
-## GitHub Actions Workflow integration 
-
-- `.github/workflows/devbox-test.yml`
-
-
-
-
-
+# devbox list
+- powershell@7.2.0
+- azure-cli@latest - 2.65.0
+- dotnet-sdk_6@latest - 6.0.405
+- azure-functions-core-tools@latest - 4.0.5455
+- vscode@latest - 1.95.1
+```
