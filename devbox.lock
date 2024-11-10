@@ -1,71 +1,51 @@
 {
   "lockfile_version": "1",
   "packages": {
-    "jq": {
-      "resolved": "github:NixOS/nixpkgs/75a52265bda7fd25e06e3a67dee3f0354e73243c#jq",
-      "source": "nixpkg",
-      "systems": {
-        "x86_64-darwin": {
-          "outputs": [
-            {
-              "name": "man",
-              "path": "/nix/store/z4i3rqn1v80wyvljzllmq2h1dccw9jhq-jq-1.7-man",
-              "default": true
-            },
-            {
-              "name": "bin",
-              "path": "/nix/store/5z8d81rsy676n6g9pc84ggxz7cix5pva-jq-1.7-bin",
-              "default": true
-            }
-          ]
-        }
-      }
-    },
     "powershell@latest": {
-      "last_modified": "2024-09-12T11:58:09Z",
-      "resolved": "github:NixOS/nixpkgs/280db3decab4cbeb22a4599bd472229ab74d25e1#powershell",
+      "last_modified": "2024-11-03T14:18:04Z",
+      "resolved": "github:NixOS/nixpkgs/4ae2e647537bcdbb82265469442713d066675275#powershell",
       "source": "devbox-search",
-      "version": "7.4.5",
+      "version": "7.4.6",
       "systems": {
         "aarch64-darwin": {
           "outputs": [
             {
               "name": "out",
-              "path": "/nix/store/gva91yf929jfc4lagnk4ab5dbvawpjcm-powershell-7.4.5",
+              "path": "/nix/store/0yz7p6wzjs9s4zvf3h90gfdn4d5j8xb4-powershell-7.4.6",
               "default": true
             }
           ],
-          "store_path": "/nix/store/gva91yf929jfc4lagnk4ab5dbvawpjcm-powershell-7.4.5"
+          "store_path": "/nix/store/0yz7p6wzjs9s4zvf3h90gfdn4d5j8xb4-powershell-7.4.6"
         },
         "aarch64-linux": {
           "outputs": [
             {
               "name": "out",
-              "path": "/nix/store/rwpz23abdc21p12is9ij70212zhp00bv-powershell-7.4.5",
+              "path": "/nix/store/4p2jsl96b78w84h4gy2xpkc8l79jf7v1-powershell-7.4.6",
               "default": true
             }
           ],
-          "store_path": "/nix/store/rwpz23abdc21p12is9ij70212zhp00bv-powershell-7.4.5"
+          "store_path": "/nix/store/4p2jsl96b78w84h4gy2xpkc8l79jf7v1-powershell-7.4.6"
         },
         "x86_64-darwin": {
           "outputs": [
             {
               "name": "out",
-              "path": "/nix/store/zlf6rynmpvd5a9cjj4zjwhm7iralhmsl-powershell-7.4.5",
+              "path": "/nix/store/qar3hhcvkhv8ym0940vpvh6fqhplv3c0-powershell-7.4.6",
               "default": true
             }
           ],
-          "store_path": "/nix/store/zlf6rynmpvd5a9cjj4zjwhm7iralhmsl-powershell-7.4.5"
+          "store_path": "/nix/store/qar3hhcvkhv8ym0940vpvh6fqhplv3c0-powershell-7.4.6"
         },
         "x86_64-linux": {
           "outputs": [
             {
               "name": "out",
-              "path": "/nix/store/0bfih8015l306ikyf51cg85lavx7zl3q-powershell-7.4.5",
+              "path": "/nix/store/px7w58rv9xjm9nflvd78lcs9bbi43qyr-powershell-7.4.6",
               "default": true
             }
           ],
-          "store_path": "/nix/store/0bfih8015l306ikyf51cg85lavx7zl3q-powershell-7.4.5"
+          "store_path": "/nix/store/px7w58rv9xjm9nflvd78lcs9bbi43qyr-powershell-7.4.6"
         }
       }
     }

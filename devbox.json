@@ -3,7 +3,6 @@
   "name":        "devbox-ci",
   "description": "DevBox for github ci workflow",
   "packages": [
-    "jq",
     "powershell@latest"
   ],
   "env": {
@@ -11,14 +10,15 @@
   },
   "shell": {
     "init_hook": [
-      "cat 'devbox.json' | jq '.description' "      
+      "export PATH=\"$(pwd)/bin/:$PATH\""      
     ],
     "scripts": {
-      "env-load" : ["source .env"],
+      "d-refresh" : ["devbox refresh"],
+      "d-update" : ["devbox update"],
       "env-list" : ["devbox shellenv"],
-      "g-push":          ["git add . && git commit -m '🐝' && git push"],
-      "powershell-host": ["pwsh --version && pwsh -c 'Get-Host' "],
-      "powershell-test": ["pwsh -file './powershell/test.ps1' -ExecutionPolicy Bypass "]
+      "g-push": ["git add . && git commit -m '🐝' && git push"],
+      "p-host": ["pwsh --version && pwsh -c 'Get-Host' "],
+      "p-test": ["pwsh -file './powershell/test.ps1' -ExecutionPolicy Bypass "]
     }
   }
 }

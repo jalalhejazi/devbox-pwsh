@@ -15,14 +15,14 @@ jobs:
           enable-cache: true
 
       - name: Run arbitrary commands
-        run: devbox run -- pwsh -c "write-host 'Hello from pwsh' "
+        run: devbox run -- pwsh -c "write-host 'Hello from pwsh 🐝🐝🐝 ' "
 
-      - name: Run a script called powershell-host
-        run: devbox run powershell-host
+      - name: Run powershell host
+        run: devbox run p-host
 
-      - name: Run a script called powershell-test
-        run: devbox run powershell-test  
+      - name: Run powershell test
+        run: devbox run p-test  
 
-      - name: Run a script called powershell-test
+      - name: show environment
         run: devbox run env-list
            
