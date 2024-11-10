@@ -1,7 +1,7 @@
 {
   "$schema":     "https://raw.githubusercontent.com/jetify-com/devbox/0.12.0/.schema/devbox.schema.json",
-  "name":        "devbox-powershell",
-  "description": "A development environment for powershell and cloud automation",
+  "name":        "devbox-ci",
+  "description": "DevBox for github ci workflow",
   "packages": [
     "jq",
     "powershell@latest"
@@ -11,10 +11,10 @@
   },
   "shell": {
     "init_hook": [
-      "cat 'devbox.json' | jq '.description' ",
-      "source .env"
+      "cat 'devbox.json' | jq '.description' "      
     ],
     "scripts": {
+      "env-load" : ["source .env"],
       "env-list" : ["devbox shellenv"],
       "g-push":          ["git add . && git commit -m '🐝' && git push"],
       "powershell-host": ["pwsh --version && pwsh -c 'Get-Host' "],
