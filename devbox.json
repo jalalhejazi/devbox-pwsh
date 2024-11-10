@@ -10,7 +10,10 @@
     "PS1":  "🐝 "
   },
   "shell": {
-    "init_hook": ["cat 'devbox.json' | jq '.description' "],
+    "init_hook": [
+      "cat 'devbox.json' | jq '.description' ",
+      "source .env"
+    ],
     "scripts": {
       "git-deploy":      ["git add . && git commit -m '-' && git push origin main"],
       "powershell-host": ["pwsh --version && pwsh -c 'Get-Host' "],
