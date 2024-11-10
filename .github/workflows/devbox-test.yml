@@ -22,4 +22,7 @@ jobs:
 
       - name: Run a script called powershell-test
         run: devbox run powershell-test  
+
+      - name: Run a script called powershell-test
+        run: devbox run env-list
            

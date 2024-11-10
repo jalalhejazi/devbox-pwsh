@@ -7,7 +7,7 @@
     "powershell@latest"
   ],
   "env": {
-    "PS1":  "🐝 "
+    "PS1": "🐝 "
   },
   "shell": {
     "init_hook": [
@@ -15,7 +15,8 @@
       "source .env"
     ],
     "scripts": {
-      "git-deploy":      ["git add . && git commit -m '-' && git push origin main"],
+      "env-list" : ["devbox shellenv"],
+      "g-push":          ["git add . && git commit -m '🐝' && git push"],
       "powershell-host": ["pwsh --version && pwsh -c 'Get-Host' "],
       "powershell-test": ["pwsh -file './powershell/test.ps1' -ExecutionPolicy Bypass "]
     }
