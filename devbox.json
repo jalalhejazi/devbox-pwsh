@@ -18,7 +18,9 @@
       "env-list" : ["devbox shellenv"],
       "g-push": ["git add . && git commit -m '🐝' && git push"],
       "p-host": ["pwsh --version && pwsh -c 'Get-Host' "],
-      "p-test": ["pwsh -file './powershell/test.ps1' -ExecutionPolicy Bypass "]
+      "p-test": ["pwsh -file './powershell/test.ps1' -ExecutionPolicy Bypass "],
+      "azd-setup" : ["curl -fsSL https://aka.ms/install-azd.sh | bash"]
+
     }
   }
 }
