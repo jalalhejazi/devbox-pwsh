@@ -55,7 +55,7 @@ Nix devbox is a development environment that is based on Nix package manager. It
 
 ## GitHub Actions Workflow integration 
 
-- ´.github/workflows/devbox-test.yml´
+- `.github/workflows/devbox-test.yml`
 
 
 
