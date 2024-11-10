@@ -8,7 +8,3 @@ Write-Host -Object "Testing PowerShell script with version: $($host.Version)"
 
 $PublicIP = Invoke-RestMethod -Uri "http://ipinfo.io/json" | Select -ExpandProperty ip
 Write-Host -Object "Public IP Address: $PublicIP"
-
-
-## expect the .env is in memory 
-echo $test
