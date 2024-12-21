@@ -1,51 +1,185 @@
 {
   "lockfile_version": "1",
   "packages": {
-    "powershell@latest": {
+    "azure-cli@latest": {
       "last_modified": "2024-11-03T14:18:04Z",
-      "resolved": "github:NixOS/nixpkgs/4ae2e647537bcdbb82265469442713d066675275#powershell",
+      "resolved": "github:NixOS/nixpkgs/4ae2e647537bcdbb82265469442713d066675275#azure-cli",
       "source": "devbox-search",
-      "version": "7.4.6",
+      "version": "2.65.0",
       "systems": {
         "aarch64-darwin": {
           "outputs": [
             {
               "name": "out",
-              "path": "/nix/store/0yz7p6wzjs9s4zvf3h90gfdn4d5j8xb4-powershell-7.4.6",
+              "path": "/nix/store/igmrgb59fcg3hhk3xnasmdhr4sn8j2rm-python3.12-azure-cli-2.65.0",
               "default": true
+            },
+            {
+              "name": "dist",
+              "path": "/nix/store/gllqfq80hhy48bkvd42i2qwysdswix05-python3.12-azure-cli-2.65.0-dist"
             }
           ],
-          "store_path": "/nix/store/0yz7p6wzjs9s4zvf3h90gfdn4d5j8xb4-powershell-7.4.6"
+          "store_path": "/nix/store/igmrgb59fcg3hhk3xnasmdhr4sn8j2rm-python3.12-azure-cli-2.65.0"
         },
         "aarch64-linux": {
           "outputs": [
             {
               "name": "out",
-              "path": "/nix/store/4p2jsl96b78w84h4gy2xpkc8l79jf7v1-powershell-7.4.6",
+              "path": "/nix/store/s8ikn7j7sa5qg1187ihjmgyssm11dmwh-python3.12-azure-cli-2.65.0",
               "default": true
+            },
+            {
+              "name": "dist",
+              "path": "/nix/store/3v3ghcdk2vd19y0n39s8a3rhyhckssvx-python3.12-azure-cli-2.65.0-dist"
             }
           ],
-          "store_path": "/nix/store/4p2jsl96b78w84h4gy2xpkc8l79jf7v1-powershell-7.4.6"
+          "store_path": "/nix/store/s8ikn7j7sa5qg1187ihjmgyssm11dmwh-python3.12-azure-cli-2.65.0"
         },
         "x86_64-darwin": {
           "outputs": [
             {
               "name": "out",
-              "path": "/nix/store/qar3hhcvkhv8ym0940vpvh6fqhplv3c0-powershell-7.4.6",
+              "path": "/nix/store/ibnx44d5anam8mrblzqjfah6m5lnprsl-python3.12-azure-cli-2.65.0",
               "default": true
+            },
+            {
+              "name": "dist",
+              "path": "/nix/store/y9akpg97r9s1f2wvrirz3bynv6qv6b99-python3.12-azure-cli-2.65.0-dist"
             }
           ],
-          "store_path": "/nix/store/qar3hhcvkhv8ym0940vpvh6fqhplv3c0-powershell-7.4.6"
+          "store_path": "/nix/store/ibnx44d5anam8mrblzqjfah6m5lnprsl-python3.12-azure-cli-2.65.0"
         },
         "x86_64-linux": {
           "outputs": [
             {
               "name": "out",
-              "path": "/nix/store/px7w58rv9xjm9nflvd78lcs9bbi43qyr-powershell-7.4.6",
+              "path": "/nix/store/i91v2inimhf2yyjjnz0vhgahss93riav-python3.12-azure-cli-2.65.0",
+              "default": true
+            },
+            {
+              "name": "dist",
+              "path": "/nix/store/rc1mxrh8ziydppgigrjcgc6ph4sz8d5v-python3.12-azure-cli-2.65.0-dist"
+            }
+          ],
+          "store_path": "/nix/store/i91v2inimhf2yyjjnz0vhgahss93riav-python3.12-azure-cli-2.65.0"
+        }
+      }
+    },
+    "azure-functions-core-tools@latest": {
+      "last_modified": "2024-11-03T14:18:04Z",
+      "resolved": "github:NixOS/nixpkgs/4ae2e647537bcdbb82265469442713d066675275#azure-functions-core-tools",
+      "source": "devbox-search",
+      "version": "4.0.5455",
+      "systems": {
+        "aarch64-darwin": {
+          "outputs": [
+            {
+              "name": "out",
+              "path": "/nix/store/n8wpjz1whgyzj8ywqmppy37f9i2abjqa-azure-functions-core-tools-4.0.5455",
               "default": true
             }
           ],
-          "store_path": "/nix/store/px7w58rv9xjm9nflvd78lcs9bbi43qyr-powershell-7.4.6"
+          "store_path": "/nix/store/n8wpjz1whgyzj8ywqmppy37f9i2abjqa-azure-functions-core-tools-4.0.5455"
+        },
+        "x86_64-darwin": {
+          "outputs": [
+            {
+              "name": "out",
+              "path": "/nix/store/h2i65ciqm9diawa2xpqqb8pqjxckmasi-azure-functions-core-tools-4.0.5455",
+              "default": true
+            }
+          ],
+          "store_path": "/nix/store/h2i65ciqm9diawa2xpqqb8pqjxckmasi-azure-functions-core-tools-4.0.5455"
+        },
+        "x86_64-linux": {
+          "outputs": [
+            {
+              "name": "out",
+              "path": "/nix/store/zsab0z9c7cd1d65z78i341xifisnz43i-azure-functions-core-tools-4.0.5455",
+              "default": true
+            }
+          ],
+          "store_path": "/nix/store/zsab0z9c7cd1d65z78i341xifisnz43i-azure-functions-core-tools-4.0.5455"
+        }
+      }
+    },
+    "dotnet-sdk_6@latest": {
+      "last_modified": "2023-02-24T09:01:09Z",
+      "resolved": "github:NixOS/nixpkgs/7d0ed7f2e5aea07ab22ccb338d27fbe347ed2f11#dotnet-sdk_6",
+      "source": "devbox-search",
+      "version": "6.0.405",
+      "systems": {
+        "x86_64-darwin": {
+          "outputs": [
+            {
+              "path": "/nix/store/559rzvy2zp44fkpylp4cw9qhv0qql6sd-dotnet-sdk-6.0.405",
+              "default": true
+            }
+          ]
+        }
+      }
+    },
+    "powershell@7.2.0": {
+      "last_modified": "2021-12-03T17:41:48Z",
+      "resolved": "github:NixOS/nixpkgs/2df15ba83d0510a56f2583fd3481723835acb5a1#powershell",
+      "source": "devbox-search",
+      "version": "7.2.0",
+      "systems": {
+        "x86_64-darwin": {
+          "outputs": [
+            {
+              "path": "/nix/store/2ks4ba32nhkjgvbbfwyci80mqhk2mppk-powershell-7.2.0",
+              "default": true
+            }
+          ]
+        }
+      }
+    },
+    "vscode@latest": {
+      "last_modified": "2024-11-03T14:18:04Z",
+      "resolved": "github:NixOS/nixpkgs/4ae2e647537bcdbb82265469442713d066675275#vscode",
+      "source": "devbox-search",
+      "version": "1.95.1",
+      "systems": {
+        "aarch64-darwin": {
+          "outputs": [
+            {
+              "name": "out",
+              "path": "/nix/store/sqbxv8a4l117a4andxviqjz1xx6pp037-vscode-1.95.1",
+              "default": true
+            }
+          ],
+          "store_path": "/nix/store/sqbxv8a4l117a4andxviqjz1xx6pp037-vscode-1.95.1"
+        },
+        "aarch64-linux": {
+          "outputs": [
+            {
+              "name": "out",
+              "path": "/nix/store/2nzamhiwq5jyrr0ql102053xlj68n1f3-vscode-1.95.1",
+              "default": true
+            }
+          ],
+          "store_path": "/nix/store/2nzamhiwq5jyrr0ql102053xlj68n1f3-vscode-1.95.1"
+        },
+        "x86_64-darwin": {
+          "outputs": [
+            {
+              "name": "out",
+              "path": "/nix/store/cflfy9px3sjzpf3dd0m9zplwwaxgybr1-vscode-1.95.1",
+              "default": true
+            }
+          ],
+          "store_path": "/nix/store/cflfy9px3sjzpf3dd0m9zplwwaxgybr1-vscode-1.95.1"
+        },
+        "x86_64-linux": {
+          "outputs": [
+            {
+              "name": "out",
+              "path": "/nix/store/j33dz8i1c5i2i14ri376fv3nid2vflfq-vscode-1.95.1",
+              "default": true
+            }
+          ],
+          "store_path": "/nix/store/j33dz8i1c5i2i14ri376fv3nid2vflfq-vscode-1.95.1"
         }
       }
     }
