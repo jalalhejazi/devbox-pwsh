@@ -7,7 +7,8 @@
     "azure-cli@latest",
     "dotnet-sdk_6@latest",
     "azure-functions-core-tools@latest",
-    "vscode@latest"
+    "vscode@latest",
+    "python@latest"
   ],
   "env": {
     "PS1": "🐝 "
