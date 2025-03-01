@@ -8,10 +8,16 @@
     "dotnet-sdk_8@latest",
     "azure-functions-core-tools@latest",
     "vscode@latest",
-    "python@latest",
-    "rPackages.Anaconda@latest",
     "pulumi@latest",
-    "nodePackages.npm@latest"
+    "pulumictl@latest",
+    "go@1.21.",
+    "nodejs@20.",
+    "nodePackages.npm@latest",
+    "yarn@latest",
+    "python3@3.11.8",
+    "rPackages.Anaconda@latest", 
+    "gradle_7@7.6",
+    "curl@8"
   ],
   "env": {
     "PS1": "🐝 "
